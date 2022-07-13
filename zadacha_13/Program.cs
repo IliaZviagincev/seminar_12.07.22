@@ -7,7 +7,7 @@ Console.Write("Введите число :  ");
 int num = int.Parse(Console.ReadLine());
 for (int i = 1; (num > 1000); i *= 10)
 {
-    num = num1 / i;
+    num = num / i;
 }
 if (num > 99) Console.WriteLine($"Третья цифра  :  {num % 10}");
 else Console.WriteLine("Нет третьей цифры");

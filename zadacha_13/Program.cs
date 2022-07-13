@@ -6,4 +6,4 @@ Console.Write("Введите число :  ");
 string num = Console.ReadLine();
 int i = num.Length;
 if (i > 2)  Console.WriteLine(num[2]);
-else {Console.WriteLine("третьей цифры нет");}
+else Console.WriteLine("третьей цифры нет");
